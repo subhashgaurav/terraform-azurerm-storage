@@ -8,7 +8,7 @@ resource "azurerm_storage_account" "sa-1" {
   resource_group_name = azurerm_resource_group.rg-1.name
   location = azurerm_resource_group.rg-1.location
   account_replication_type = "LRS"
-  account_tier = "Standard
+  account_tier = "Standard"
   
   }
   
